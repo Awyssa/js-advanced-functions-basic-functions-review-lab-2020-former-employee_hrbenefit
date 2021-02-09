@@ -44,5 +44,3 @@ let calculator = {
   age: 10,
   color: 'blue'
 }
-
-console.log(calculator.color, calculator.age, + calculator.type)
