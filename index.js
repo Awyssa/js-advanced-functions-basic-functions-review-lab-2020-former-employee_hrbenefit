@@ -39,6 +39,10 @@ function wrapAdjective(flair = '*') {
 
 console.log(wrapAdjective()())
 
-let calculator = {type: 'casio', age: 10, color: 'blue'}
+let calculator = {
+  type: 'casio',
+  age: 10,
+  color: 'blue'
+}
 
 console.log(calculator:type)
