@@ -47,3 +47,5 @@ let Calculator = {
   age: 10,
   color: 'blue'
 }
+
+console.log(Calculator)
