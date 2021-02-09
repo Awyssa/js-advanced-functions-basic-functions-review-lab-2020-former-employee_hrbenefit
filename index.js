@@ -1,5 +1,5 @@
 function saturdayFun(activity="roller-skate") {
-  console.log(`This saturday, I want to ${activity}!`)
+  return `This saturday, I want to ${activity}!z
 }
 
 saturdayFun("Skate")
