@@ -8,3 +8,13 @@ const mondayWork = function(activity='go to the office') {
 
 console.log(mondayWork())
 console.log(mondayWork('skate'))
+
+
+function outer(greeting, msg="It's a fine day to learn") { // 2
+  const innerFunction =  function(name, lang="Python") { // 3
+    return `${greeting}, ${name}! ${msg} ${lang}`; // 4
+  }
+  return innerFunction("student", "JavaScript"); // 5
+}
+
+outer("Hello")
