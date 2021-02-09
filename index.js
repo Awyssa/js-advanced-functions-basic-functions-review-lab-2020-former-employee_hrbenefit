@@ -29,6 +29,3 @@ function outer(greeting, msg="It's a fine day to learn") {
 
 
 console.log(outer("Hello")("student", "JavaScript"))
-
-console.log(outer("Hello")("student", "JavaScript"))
-console.log(outer("Hello")("student", "JavaScript"))
