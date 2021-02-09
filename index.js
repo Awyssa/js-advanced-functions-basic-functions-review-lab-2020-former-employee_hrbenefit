@@ -45,4 +45,4 @@ let calculator = {
   color: 'blue'
 }
 
-console.log(calculator.type, + 1, calculator.color)
+console.log(calculator.type, + age, calculator.color)
