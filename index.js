@@ -17,4 +17,14 @@ function outer(greeting, msg="It's a fine day to learn") { // 2
   return innerFunction("student", "JavaScript"); // 5
 }
 
-console.log(outer("Hello"))
+console.log(outer("Hello")
+
+
+function outer(greeting, msg="It's a fine day to learn") {
+  const innerFunction =  function(name, lang="Python") {
+    return `${greeting}, ${name}! ${msg} ${lang}`;
+  }
+  return innerFunction;
+}
+
+console.log(outer("Hello")
