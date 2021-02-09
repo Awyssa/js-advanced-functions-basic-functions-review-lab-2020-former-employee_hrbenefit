@@ -39,25 +39,17 @@ function wrapAdjective(flair = '*') {
 
 console.log(wrapAdjective()())
 
-let Calculator = {
+const Calculator = {
   add: function(a,b) {
-    return a+b
+    return a + b;
+  },
+  subtract: function(a,b) {
+    return a - b
+  },
+  multiply: function(a,b) {
+    return a * b
+  },
+  divide: function(a,b) {
+    return a / b;
   }
 }
-
-console.log(Calculator.add(20, 20))
-
-// const Calculator = {
-//   add: function(a,b) {
-//     return a + b;
-//   },
-//   subtract: function(a,b) {
-//     return a - b
-//   },
-//   multiply: function(a,b) {
-//     return a * b
-//   },
-//   divide: function(a,b) {
-//     return a / b;
-//   }
-// }
