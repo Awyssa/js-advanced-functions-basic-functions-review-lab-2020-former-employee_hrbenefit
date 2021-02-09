@@ -38,3 +38,7 @@ function wrapAdjective(flair = '*') {
 }
 
 console.log(wrapAdjective()())
+
+let calculator = {math: numbers}
+
+console.log(calculator)
