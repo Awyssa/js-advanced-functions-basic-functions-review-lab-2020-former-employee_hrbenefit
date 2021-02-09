@@ -45,7 +45,7 @@ let Calculator = {
   }
 }
 
-console.log(Calculator)
+console.log(Calculator.add(20, 20))
 
 // const Calculator = {
 //   add: function(a,b) {
@@ -61,5 +61,3 @@ console.log(Calculator)
 //     return a / b;
 //   }
 // }
-
-Calculator.add(20, 20)
