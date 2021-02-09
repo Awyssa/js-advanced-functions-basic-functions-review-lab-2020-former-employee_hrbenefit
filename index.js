@@ -40,7 +40,9 @@ function wrapAdjective(flair = '*') {
 console.log(wrapAdjective()())
 
 let Calculator = {
-  add: function(a,b) {return a+b}
+  add: function(a,b) {
+    return a+b
+  }
 }
 
 console.log(Calculator)
@@ -60,4 +62,4 @@ console.log(Calculator)
 //   }
 // }
 
-Calculator.add(20,30)
+Calculator.add(20, 20)
