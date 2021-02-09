@@ -1,6 +1,3 @@
-// Your code here
-function razzle() {
-  console.log("You've been razzled!")
+function saturdayFun(activity) {
+  console.log(`This saturday, I want to ${activity}!`)
 }
-
-razzle()
