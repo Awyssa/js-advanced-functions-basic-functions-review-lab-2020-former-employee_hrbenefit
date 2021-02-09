@@ -31,7 +31,7 @@ const mondayWork = function(activity='go to the office') {
 // console.log(outer("Hello")("student", "JavaScript"))
 //
 
-function wrapAdjective() {
+function wrapAdjective(visualFlair = '*') {
   return function(innerVal = 'special') {
     return `You are ${innerVal}`
   }
