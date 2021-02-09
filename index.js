@@ -33,6 +33,6 @@ const mondayWork = function(activity='go to the office') {
 
 function wrapAdjective() {
   return function(innerVal = 'special') {
-    
+
   }
 }
