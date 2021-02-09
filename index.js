@@ -27,9 +27,9 @@ const mondayWork = function(activity='go to the office') {
 //     return `${greeting}, ${name}! ${msg} ${lang};`
 //   }
 // }
-// 
+//
 // console.log(outer("Hello")("student", "JavaScript"))
-// 
+//
 
 function wrapAdjective() {
   return function() {
