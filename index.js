@@ -17,4 +17,4 @@ function outer(greeting, msg="It's a fine day to learn") { // 2
   return innerFunction("student", "JavaScript"); // 5
 }
 
-outer("Hello")
+console.log(outer("Hello"))
