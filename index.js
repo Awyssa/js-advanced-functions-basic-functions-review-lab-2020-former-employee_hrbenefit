@@ -15,13 +15,24 @@ const mondayWork = function(activity='go to the office') {
 //
 // console.log(outer("Hello")
 
+// function outer(greeting, msg="It's a fine day to learn") {
+//   const innerFunction =  function(name, lang="Python") {
+//     return `${greeting}, ${name}! ${msg} ${lang}`;
+//   }
+//   return innerFunction;
+// }
 
-function outer(greeting, msg="It's a fine day to learn") {
-  const innerFunction =  function(name, lang="Python") {
-    return `${greeting}, ${name}! ${msg} ${lang}`;
+// function outer(greeting, msg="It's a fine day to learn") {
+//   return function(name, lang="Python") {
+//     return `${greeting}, ${name}! ${msg} ${lang};`
+//   }
+// }
+// 
+// console.log(outer("Hello")("student", "JavaScript"))
+// 
+
+function wrapAdjective() {
+  return function() {
+    
   }
-  return innerFunction;
 }
-
-
-console.log(outer("Hello")("student", "JavaScript"))
