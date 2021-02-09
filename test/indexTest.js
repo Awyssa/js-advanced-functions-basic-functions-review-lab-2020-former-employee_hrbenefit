@@ -27,7 +27,7 @@ describe("index.js", () => {
     })
   })
 
-  xdescribe("defines wrapAdjective function according to the specification", function() {
+  describe("defines wrapAdjective function according to the specification", function() {
     it("function exists", function() {
       expect(wrapAdjective).to.exist
     })
@@ -45,12 +45,12 @@ describe("index.js", () => {
     });
   })
 
-  xdescribe("defines an object called Calculator", function() {
+  describe("defines an object called Calculator", function() {
     it("has a JavaScript Object called Calculator as a local variable", function() {
       expect(Calculator).to.be.a('object')
     })
 
-    xdescribe("that has a function called add", function() {
+    describe("that has a function called add", function() {
       it("Calculator.add exists", function() {
         expect(Calculator.add).to.exist
       })
@@ -60,7 +60,7 @@ describe("index.js", () => {
       })
     })
 
-    xdescribe("that has a function called subtract", function() {
+    describe("that has a function called subtract", function() {
       it("Calculator.subtract exists", function() {
         expect(Calculator.subtract).to.exist
       })
@@ -70,7 +70,7 @@ describe("index.js", () => {
       })
     })
 
-    xdescribe("that has a function called multiply", function() {
+    describe("that has a function called multiply", function() {
       it("Calculator.multiply exists", function() {
         expect(Calculator.multiply).to.exist
       })
