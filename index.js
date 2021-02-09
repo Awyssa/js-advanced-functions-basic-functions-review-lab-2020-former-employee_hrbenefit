@@ -40,10 +40,22 @@ function wrapAdjective(flair = '*') {
 console.log(wrapAdjective()())
 
 let Calculator = {
-  let add(number) = () => { return number + 1}
-  type: 'casio',
-  age: 10,
-  color: 'blue'
+  add: function(a,b) {return a+b}
 }
 
 console.log(Calculator)
+
+const Calculator = {
+  add: function(a,b) {
+    return a + b;
+  },
+  subtract: function(a,b) {
+    return a - b
+  },
+  multiply: function(a,b) {
+    return a * b
+  },
+  divide: function(a,b) {
+    return a / b;
+  }
+}
