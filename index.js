@@ -54,6 +54,12 @@ const Calculator = {
   }
 }
 
-function actionApplyer(1, ) {
+let actionApplyer = function(start, ray) {
+  let a = start
 
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
+  }
+
+  return a
 }
