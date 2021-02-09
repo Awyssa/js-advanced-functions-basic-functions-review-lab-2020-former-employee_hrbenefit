@@ -41,4 +41,4 @@ console.log(wrapAdjective()())
 
 let calculator = {type: 'casio', age: 10, color: 'blue'}
 
-console.log(calculator)
+console.log(calculator:type)
