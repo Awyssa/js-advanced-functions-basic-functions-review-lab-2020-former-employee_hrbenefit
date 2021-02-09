@@ -27,4 +27,4 @@ function outer(greeting, msg="It's a fine day to learn") {
   return innerFunction;
 }
 
-console.log(outer("Hello")
+console.log(outer("Hello")("student", "JavaScript");)
