@@ -36,3 +36,5 @@ function wrapAdjective(flair = '*') {
     return `You are ${flair}${innerVal}${flair}!`
   }
 }
+
+console.log(wrapAdjective())
