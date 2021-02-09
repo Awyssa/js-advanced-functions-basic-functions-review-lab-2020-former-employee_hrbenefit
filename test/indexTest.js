@@ -80,7 +80,7 @@ describe("index.js", () => {
       })
     })
 
-    xdescribe("that has a function called divide", function() {
+    describe("that has a function called divide", function() {
       it("Calculator.divide exists", function() {
         expect(Calculator.divide).to.exist
       })
@@ -91,12 +91,12 @@ describe("index.js", () => {
     })
   })
 
-  xdescribe("Defines a function called actionApplyer", function() {
+  describe("Defines a function called actionApplyer", function() {
     it("exists", function() {
         expect(actionApplyer).to.exist
     })
 
-    xdescribe("receives two arguments: a starting integer and an array of functions", function() {
+    describe("receives two arguments: a starting integer and an array of functions", function() {
       it("returns the given starting point, unchanged, when the array is empty", function() {
         expect(actionApplyer(0, [])).to.equal(0)
       })
