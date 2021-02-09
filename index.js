@@ -3,3 +3,4 @@ function saturdayFun(activity = 'roller-skate') {
 }
 
 saturdayFun("Skate")
+saturdayFun()
