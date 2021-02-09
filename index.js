@@ -40,7 +40,7 @@ function wrapAdjective(flair = '*') {
 console.log(wrapAdjective()())
 
 let Calculator = {
-  function add(number) {
+  let function add(number) {
     return number + 1
   }
   type: 'casio',
