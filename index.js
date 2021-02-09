@@ -37,4 +37,4 @@ function wrapAdjective(flair = '*') {
   }
 }
 
-console.log(wrapAdjective())
+console.log(wrapAdjective()())
