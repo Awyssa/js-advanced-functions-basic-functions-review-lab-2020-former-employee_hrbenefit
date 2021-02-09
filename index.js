@@ -29,4 +29,4 @@ function outer(greeting, msg="It's a fine day to learn") {
 
 let greeting = outer("Hello")("student", "JavaScript")
 
-console.log(greeting)
+console.log(outer("Hello")("student", "JavaScript"))
