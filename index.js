@@ -27,6 +27,4 @@ function outer(greeting, msg="It's a fine day to learn") {
   return innerFunction;
 }
 
-let greeting = outer("Hello")("student", "JavaScript")
-
 console.log(outer("Hello")("student", "JavaScript"))
