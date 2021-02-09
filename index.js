@@ -59,3 +59,5 @@ console.log(Calculator)
 //     return a / b;
 //   }
 // }
+
+Calculator.add(20,30)
